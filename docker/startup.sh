@@ -28,9 +28,9 @@ trust=strict
 verbose=1
 client.cert=$SECRETS_DIR/client.cert.pem
 client.key=$SECRETS_DIR/client.key.pem
-server.cert=$SECRETS_DIR/client.cert.pem
-server.key=$SECRETS_DIR/client.key.pem
-server.crl=$SECRETS_DIR/client.crl.pem
+server.cert=$SECRETS_DIR/server.cert.pem
+server.key=$SECRETS_DIR/server.key.pem
+server.crl=$SECRETS_DIR/server.crl.pem
 ca.cert=$SECRETS_DIR/ca.cert.pem
 EOF
 
